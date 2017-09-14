@@ -1,0 +1,87 @@
+<!--
+############################  INSTRUCCIONES  ##############################
+
+buscadorhtml.html
+-----------------
+
+ESTE ARCHIVO HTML DESPLEGARA A SUS USUARIOS LOS RESULTADOS DE TODAS LAS BUSQUEDAS REALIZADAS
+EN SU SITIO WEB, (BUSCANDO EN TODOS LOS ARCHIVOS .htm Y .html EXISTENTES EN UN DIRECTORIO)
+
+USTED PUEDE LIBREMENTE MODIFICAR ESTE ARCHIVO HTML PARA ADAPTARLO AL DISEÑO DE SU SITIO WEB
+LO UNICO QUE DEBERA DEJAR INTACTO PARA QUE FUNCIONE EL BUSCADOR SON LAS PARTES
+QUE DICEN "..PARTE 1.." Y "..PARTE 2.."
+
+(SIEMPRE LE RECOMENDAMOS GUARDAR UNA COPIA DEL ARCHIVO ORIGINAL "buscadorhtml.html"
+PARA PODER RESTITUIRLO EN CASO DE ARRUINARLO POR ALGUNA EQUIVOCACION, O DESCARGAR
+LOS ARCHIVOS ORIGINALES DISPONIBLES EN: www.buscadorhtml.com)
+
+(SI USTED YA HABIA COMPRADO UNA LICENCIA ANUAL Y RESTITUYE LOS ARCHIVOS DESDE
+www.buscadorhtml.com SOLAMENTE DEBERA INGRESAR NUEVAMENTE LA LICENCIA VIGENTE QUE
+LE FUE ENVIADA A SU CORREO ELECTRONICO CUANDO COMPRO SU LICENCIA ANUAL)
+
+LOS ARCHIVOS QUE DEBERA SUBIR A SU HOSTING PARA QUE EL BUSCADOR FUNCIONE DEBERAN SER
+COLOCADOS EN EL DIRECTORIO RAIZ (public_html) O EN EL DIRECTORIO DONDE DESEA EFECTUAR
+SUS BUSQUEDAS, LOS 4 ARCHIVOS QUE DEBERA COPIAR EN SU HOSTING SON: 
+
+buscadorhtml.html
+buscadorhtml.js
+buscadorhtml.cgi
+buscadorhtml.php
+
+
+RECUERDE NO CAMBIARLE EL NOMBRE A LOS ARCHIVOS, NI EDITARLOS O MODIFICARLOS,
+EL UNICO ARCHIVO QUE PUEDE MODIFICAR PARA ADAPTARLO AL DISEÑO DE SU SITIO ES:
+
+buscadorhtml.html
+
+ESTE BUSCADOR FUNCIONA EN HOSTINGS QUE SOPORTEN ARCHIVOS PHP, IDEALMENTE EN SERVIDORES
+LINUX CON CPANEL, Y EN DIRETORIOS QUE TENGAN PERMISOS DE LECTURA Y ESCRITURA, SI USTED
+NO TIENE UN HOSTING CON ESTAS CARACTERISTICAS PUEDE CONTRATAR UNO EN WWW.SABRO.NET
+
+PARA MAS INFORMACION RECUERDE VISITAR: WWW.BUSCADORHTML.COM 
+
+############################  WWW.BUSCADORHTML.COM  ##############################
+-->
+
+
+<html>
+<head>
+<title>Buscador Interno de archivos HTML, Provisto por www.buscadorhtml.com</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+
+<!-- ####  BEGIN PARTE 1: ########## INICIO DEL BUSCADOR ############# -->
+<div align=center>
+<script> function avoidblanksearch(form){var qu=form.q.value.trim(); if (qu.length == 0) { return false } }</script>
+<form method="GET" action="buscadorhtml.html" onsubmit="return avoidblanksearch(this)">
+<p><input type="text" name="q" size="20"><input type="submit" value="Buscar" ></p>
+</form>
+</div>
+<!-- ####  END PARTE 1: ########## FINAL DEL BUSCADOR ############# -->
+
+
+<br><hr><br>
+
+<!-- ####  BEGIN PARTE 2: ########## INICIO RESULTADOS DE BUSQUEDA ############# -->
+<script>
+// Ejemplo de uso: buscadorhtml.html?q=palabra
+// --------------------------------------
+var colortitulo = '1A0DBB';
+var colordescripcion = '000000';
+var colorlink = '006621';
+// ---------------------------------------
+</script>
+<script src=buscadorhtml.js></script>
+<!-- ####  END PARTE 2: ########## END RESULTADOS DE BUSQUEDA ############# -->
+
+<hr><Br><Br>
+<div align=center>
+<font face=arial size=1 color=#333333>
+Buscador interno, provisto por: <a href="http://www.buscadorhtml.com" target="_blank">www.buscadorhtml.com</a>
+</font>
+</div>
+
+</body>
+</html>

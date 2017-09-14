@@ -1,0 +1,317 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+.uno{
+    display: flex;
+    
+    
+    margin-top: 50px;
+}
+
+/*.col{
+  background-color: #AAA;
+  border: 2px solid #444;
+}*/
+
+body { padding-top: 70px;
+
+background-color:;
+}
+
+
+.pagination>li>a, .pagination>li>span { border-radius: 50% !important;margin: 0 5px;}
+header{
+    width: 100%;
+
+
+  }
+  .logo {
+    width: 250px;
+    height: 180px;
+   
+  }
+ 
+ .datos h2{
+  text-align: center;
+
+   }
+
+.mision{
+ border: 1px solid #295A80;
+  border-radius: 10px;
+  box-shadow: 2px 2px 0.50px #295A80;
+  margin-bottom: 12px;
+    
+    
+}
+
+
+menu li{
+  font-size: 16px;
+  padding: 0;
+  margin: 0;
+}
+footer{
+  padding: 0;
+  border: 0;
+  background-color: #3B8686;
+  width: 100%;
+
+
+}
+.datos{
+  margin-left: 6em;
+}
+.mapa{
+  max-width: 100%;
+
+}
+
+.icon-phone{
+  color: white;
+  font-size: 20px;
+}
+.icon-facebook{
+  color: white;
+  font-size: 20px;
+}
+.a{
+  list-style: none;
+}
+
+
+.imaProducto{
+ 
+  max-width: 100%;
+  width: 160px;
+  height: 145px;
+ 
+
+  
+}
+.cuadro{
+  
+  border: 1px solid #943247;
+  border-radius: 15px;
+  box-shadow: 3px 3px 0.50px #943247;
+  margin-bottom: 12px;
+
+}
+
+.margen{ 
+       margin-right: 0px;
+    margin-left: 0px; 
+
+}
+
+.caja_contacto{
+  
+  
+  border-radius: 5em;
+
+}
+.jumbotron h1 {
+  text-align: center;
+}
+
+
+
+.navbar-custom {
+  background-color: #295A80;
+  border-color: #215067;
+   
+ }
+.navbar-custom .navbar-brand {
+  color: #ffffff;
+}
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-brand:focus {
+  color: #e6e6e6;
+  background-color: transparent;
+}
+.navbar-custom .navbar-text {
+  color: #ffffff;
+}
+.navbar-custom .navbar-nav > li:last-child > a {
+  border-right: 1px solid #215067;
+}
+.navbar-custom .navbar-nav > li > a {
+  color: #ffffff;
+  border-left: 1px solid #215067;
+}
+.navbar-custom .navbar-nav > li > a:hover,
+.navbar-custom .navbar-nav > li > a:focus {
+  color: #c0c0c0;
+  background-color: transparent;
+}
+.navbar-custom .navbar-nav > .active > a,
+.navbar-custom .navbar-nav > .active > a:hover,
+.navbar-custom .navbar-nav > .active > a:focus {
+  color: #c0c0c0;
+  background-color: #215067;
+}
+.navbar-custom .navbar-nav > .disabled > a,
+.navbar-custom .navbar-nav > .disabled > a:hover,
+.navbar-custom .navbar-nav > .disabled > a:focus {
+  color: #cccccc;
+  background-color: transparent;
+}
+.navbar-custom .navbar-toggle {
+  border-color: #dddddd;
+}
+.navbar-custom .navbar-toggle:hover,
+.navbar-custom .navbar-toggle:focus {
+  background-color: #dddddd;
+}
+.navbar-custom .navbar-toggle .icon-bar {
+  background-color: #cccccc;
+}
+.navbar-custom .navbar-collapse,
+.navbar-custom .navbar-form {
+  border-color: #204e65;
+}
+.navbar-custom .navbar-nav > .dropdown > a:hover .caret,
+.navbar-custom .navbar-nav > .dropdown > a:focus .caret {
+  border-top-color: #c0c0c0;
+  border-bottom-color: #c0c0c0;
+}
+
+.navbar-custom .navbar-nav > .dropdown > .dropdown-menu > li > a{
+  color: white;
+ 
+}
+
+.navbar-custom .navbar-nav > .dropdown > .dropdown-menu > li > a:hover,
+.navbar-custom .navbar-nav > .dropdown > .dropdown-menu > li > a:focus{
+  color: black;
+ 
+}
+
+.dropdown-menu{
+  background-color: #295A80;
+
+}
+
+
+.navbar-custom .navbar-nav > .open > a,
+.navbar-custom .navbar-nav > .open > a:hover,
+.navbar-custom .navbar-nav > .open > a:focus {
+  background-color: #215067;
+  color: #c0c0c0;
+}
+.navbar-custom .navbar-nav > .open > a .caret,
+.navbar-custom .navbar-nav > .open > a:hover .caret,
+.navbar-custom .navbar-nav > .open > a:focus .caret {
+  border-top-color: #c0c0c0;
+  border-bottom-color: #c0c0c0;
+}
+.navbar-custom .navbar-nav > .dropdown > a .caret {
+  border-top-color: #ffffff;
+  border-bottom-color: #ffffff;
+}
+@media (max-width: 767) {
+  .navbar-custom .navbar-nav .open .dropdown-menu > li > a {
+    color: #ffffff;
+  }
+  .navbar-custom .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-custom .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #c0c0c0;
+    background-color: transparent;
+  }
+  .navbar-custom .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-custom .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-custom .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #c0c0c0;
+    background-color: #215067;
+  }
+  .navbar-custom .navbar-nav .open .dropdown-menu > .disabled > a,
+  .navbar-custom .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+  .navbar-custom .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+    color: white;
+    background-color: transparent;
+  }
+
+   
+}
+.navbar-custom .navbar-link {
+  color: #ffffff;
+}
+.navbar-custom .navbar-link:hover {
+  color: #c0c0c0;
+}
+
+  
+
+
+
+@media (max-width: 768px) {
+.logo{
+ display: none;
+}
+
+
+footer
+{
+  overflow: hidden;
+
+}
+.datos {
+  margin-left: 1em;
+}
+.mapa{
+  margin-left: 0.3em;
+  margin-right: 0.3em;
+  position: relative;
+    max-width: 100%;
+}
+
+.imaProducto{
+    width: 150px;
+    height: 150px;
+    margin-left: 20px;
+  
+    
+
+}
+ .uno{
+    display: flex;
+    
+
+    margin-top: 30px;
+}
+.boton_info{
+  margin-top: 1em;
+  margin-bottom: 1em;
+
+}
+
+}
+@media (min-width: 768px ) {
+.navbar-brand{
+  display: none;
+}
+    
+   
+    
+
+
+
+
+.boton_info{
+  margin-top: 1em;
+  margin-bottom: 1em;
+
+}
+
+}
+
+@media (max-width :767px){
+    .mision{
+     
+        margin-right: 15px;    
+    }
+}
+    

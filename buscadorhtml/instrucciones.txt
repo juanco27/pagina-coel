@@ -1,0 +1,67 @@
+
+################# INSTRUCCIONES DE BUSCADORHTML.COM   ######################### 10/feb/2016
+
+
+Este Buscador Interno de archivos html, es un Sistema desarrollado por
+www.SamuelBrooks.com (www.sabro.net), descargable a traves de:
+
+www.buscadorhtml.com  
+
+Este software, permite agregar fácilmente un buscador a un Sitio Web en menos de 5 minutos,
+para poder buscar palabras o frases en todos los archivos HTML de un sitio web hospedado en
+un hosting que soporte scripts en php (version 4 y superior), idealmente en servidores linux
+con cpanel, y en diretorios que tengan permisos de lectura y escritura.
+
+Si usted no tiene un hosting con estas caracteristicas puede contratar uno en www.sabro.net
+
+El sistema es un Buscador completamente independiente del buscador de google, con búsquedas
+100% internas, completamente personalizable y sin publicidad.
+
+los archivos que debera subir a su hosting para que el buscador funcione deberan ser
+colocados en el directorio raiz (public_html) o en el directorio donde desea efectuar
+sus busquedas, ejemplo www.sudominio.com/sitioweb
+
+los 4 archivos que debera copiar en su hosting son:
+
+buscadorhtml.html
+buscadorhtml.js
+buscadorhtml.cgi
+buscadorhtml.php
+
+
+Recuerde no cambiarle el nombre a los archivos, ni editarlos o modificarlos,
+el unico archivo que puede modificar para adaptarlo al diseño de su sitio es:
+
+buscadorhtml.html
+-----------------
+
+El archivo buscadorhtml.html  desplegara a los usuarios los resultados de todas las
+busquedas realizadas en su sitio web.
+
+(buscando en todos los archivos .htm y .html existentes en el directorio en donde
+se encuentren instalados los 4 archvios que conforman el buscador)
+
+Usted puede libremente modificar el archivo "buscadorhtml.html" para adaptarlo al
+diseño de su sitio web, lo unico que debera dejar intacto para que funcione el buscador
+son las partes que dicen "..parte 1.." y "..parte 2.." (incluidas dentro del archivo buscadorhtml.html)
+
+(Siempre recomendamos guardar una copia del archivo original "buscadorhtml.html"
+para poder restituirlo en caso de arruinarlo por alguna equivocacion, o descargar
+los archivos originales disponibles en: www.buscadorhtml.com)
+
+(Si usted ya habia comprado una licencia anual y restituye los archivos desde
+www.buscadorhtml.com solamente debera ingresar nuevamente la licencia vigente que
+le fue enviada a su correo electronico cuando compro su licencia anual)
+
+Este software puede ser libremente distribuido como prueba gratuita, con opcion
+de contratar una licencia anual en calidad de SAAS (Software As A Service).
+
+La licencia anual de este software se puede pagar por medio de paypal directamente
+en www.buscadorhtml.com o incluso en efectivo por medio de moneygram, westerunion
+o con deposito en bancos de Guatemala, segun las indicaciones descritas en
+www.buscadorhtml.com
+
+Para mas informacion visite: www.buscadorhtml.com
+
+
+############################  WWW.BUSCADORHTML.COM  ##############################
